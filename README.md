@@ -1,5 +1,17 @@
 # my-project
-my ecommerce website
+My ECOMMERCE WEBSITE
+
+
+
+
 Tools that will be need to View and Modify this project (For Windows, MacOS and Linux)
-Atom Text Editor.
-XAMPP - It is an easy to install Apache distribution containing MariaDB, PHP, and Perl.
+
+
+
+
+1.Atom Text Editor.
+
+
+
+
+2.XAMPP - It is an easy to install Apache distribution containing MariaDB, PHP, and Perl.
