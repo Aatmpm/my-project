@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Settings</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="navbar-brand">Lifestyle Store </a>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li> <a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a> </li>
+              <li> <a href="settings.html" id="ze"> <span class="glyphicon glyphicon-user" ></span> Settings </a> </li>
+              <li> <a href="products.html" class="my"> <span class="glyphicon glyphicon-log-out" ></span> Logout </a> </li>
+            </ul>
+        </div>
+        </div>
+      </nav>
+      <div class="container panel-margin ef">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h1 class="panel-title">Change Password</h1>
+             <form>
+                 <div class="form-group">
+                   <input type="oldpassword" class="form-control" id="oldpassword" name="oldpassword" placeholder="Old Password" required>
+                 </div>
+                 <div class="form-group">
+                   <input type="newpassword" class="form-control" id="newpassword" name="newpassword" placeholder="New Password" required>
+                 </div>
+                 <button type="submit" class="btn btn primary">Change</button>
+             </form>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <center>
+          <p>Copyright © Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000</p>
+        </center>
+        </div>
+      </footer>
+  </body>
+</html>
